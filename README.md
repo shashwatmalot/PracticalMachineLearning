@@ -13,9 +13,12 @@ I have chosen Random Forest algorithm for classification. This was done to impro
 3) An average of accuracy for the 25 samples is the estimated accuracy for that value of 'mtry' parameter.
 All the three values give us above 98% accuracy, but the best value for 'mtry' is 36 which gives ~99.9% accuracy. The top five variable in order of importance are: raw_timestamp_part_1, num_window, roll_belt, yaw_belt and pitch_belt.
 
-Plot1: variables per level vs bootstrap accuracy
+Plot1: variables per level vs bootstrap accuracy:
+(Available along with the code)
 
-Table1: Top five predicators
+Table1: Top five predicators: 
+(Available along with the code)
+
 
 <h4>Analysis on testing set:</h4>
 The fitted model(with variables per level=36) is tried on the testing set to determine its out of sample accuracy. The out of sample accuracy I achieved was greater than 99.8%. This value was in line with the bootstrapping estimations. Since the above fitted model has a very good out of sample performance, I used the model on the final problem set.
